@@ -25,7 +25,7 @@ SECRET_KEY = '$82#u62q2!(2$kf5adjgm(3-n3an@2#f3)8=58^uebor0^bf=q'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com', 'chmezac.pythonanywhere.com']
 
 
 # Application definition
@@ -133,8 +133,8 @@ STATIC_URL = '/static/'
 CORS_ALLOW_CREDENTIALS = True
 
 CORS_ORIGIN_WHITELIST = (
-    'http://127.0.0.1:8887/'
+    'https://chmezac.github.io/'
 )
 CORS_ORIGIN_REGEX_WHITELIST = (
-    'http://127.0.0.1:8887/'
+    'https://chmezac.github.io/'
 )
