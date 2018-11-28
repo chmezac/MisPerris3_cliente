@@ -25,7 +25,7 @@ SECRET_KEY = '$82#u62q2!(2$kf5adjgm(3-n3an@2#f3)8=58^uebor0^bf=q'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com', 'chmezac.pythonanywhere.com']
+ALLOWED_HOSTS = ['127.0.0.1','testperris3.pythonanywhere.com', 'http://testperris3.pythonanywhere.com']
 
 
 # Application definition
