@@ -129,12 +129,11 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 
 STATIC_URL = '/static/'
-
 CORS_ALLOW_CREDENTIALS = True
 
 CORS_ORIGIN_WHITELIST = (
-    'https://chmezac.github.io/'
+    'http://chmezac.github.io/'
 )
 CORS_ORIGIN_REGEX_WHITELIST = (
-    'https://chmezac.github.io/'
+    'http://chmezac.github.io/'
 )
